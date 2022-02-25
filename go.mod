@@ -9,4 +9,4 @@ require (
 	gorm.io/gorm v1.23.1 // indirect
 )
 
-go 1.14
+go 1.16
