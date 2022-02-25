@@ -8,6 +8,7 @@ import (
 	"github.com/gogf/gf/util/gvalid"
 )
 
+// Login 登陆
 func Login(r *ghttp.Request) {
 	var req model.Users
 	if err := r.Parse(&req); err != nil {

@@ -8,6 +8,7 @@ import (
 	"github.com/gogf/gf/util/gvalid"
 )
 
+// Register 注册
 func Register(r *ghttp.Request) {
 	var req model.RegisterReq
 	if err := r.Parse(&req); err != nil {
